@@ -1,7 +1,8 @@
 TwiRealDownloader
 ver1はエラーの発生がとても多くて使い物になりません。ver2の方がよく動きます。
 
-APP_KEYおよびAPP_SECRETはhttps://apps.twitter.com/から各自用意する必要があります。
+APP_KEYおよびAPP_SECRETはhttps://apps.twitter.com/
+から用意する必要があります。
 また、プログラム上で使用されているモジュールのインポートも必要です。
 
 このプログラムを起動している間に特定ユーザーのツイートに更新があった場合、そのデータ（ツイートおよび添付メディア）を保存します。
