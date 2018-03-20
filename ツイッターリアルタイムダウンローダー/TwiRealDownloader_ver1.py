@@ -7,8 +7,8 @@ import random
 import time
 import os
 
-APP_KEY = "7GDTlipks1O6i1gZgJyzAIq6T"
-APP_SECRET = "OPAzarDM8Goel2TLMiQ0UdsDDA0XHm4XnFMsCtomATMVj3t7Mn"
+APP_KEY = "" # https://apps.twitter.com/から取得する
+APP_SECRET = "" # https://apps.twitter.com/から取得する
 
 # OAuth2(AccessTokenの取得)
 twitter = Twython(APP_KEY, APP_SECRET, oauth_version = 2)

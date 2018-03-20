@@ -35,8 +35,8 @@ f = open('Tweets.txt','a')
 f.close()
 
 #OAuth2認証
-APP_KEY = "7GDTlipks1O6i1gZgJyzAIq6T"
-APP_SECRET = "OPAzarDM8Goel2TLMiQ0UdsDDA0XHm4XnFMsCtomATMVj3t7Mn"
+APP_KEY = "" # https://apps.twitter.com/から取得する
+APP_SECRET = ""　# https://apps.twitter.com/から取得する
 twitter = Twython(APP_KEY, APP_SECRET, oauth_version = 2)
 ACCESS_TOKEN = twitter.obtain_access_token()
 twitter = Twython(APP_KEY, access_token=ACCESS_TOKEN)
